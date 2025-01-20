@@ -1,12 +1,46 @@
 import Aos from 'aos';
 import './bootstrap';
 import 'preline';
+import 'atropos/css';
+import Dropzone from "dropzone";
+import Toastify from 'toastify-js'
+import { HSDataTable } from 'preline';
+import Atropos from 'atropos';
+import 'datatables.net-buttons/js/dataTables.buttons.min.js';
+import 'jszip/dist/jszip.min.js';
+import 'pdfmake/build/pdfmake.min.js';
+import 'pdfmake/build/vfs_fonts.js';
+import 'datatables.net-buttons/js/buttons.html5.min.js';
+import 'datatables.net-buttons/js/buttons.print.min.js';
+
+
+// Initialize
+const myAtropos = Atropos({
+  el: '.my-atropos',
+  
+  // rest of parameters
+});
 
 /* 
 * Initialize AOS
 */
 Aos.init();
 
+
+
+window.addEventListener('load', () => {
+      
+    const inputs = document.querySelectorAll('.dt-container thead input');
+  
+    inputs.forEach((input) => {
+      input.addEventListener('keydown', function (evt) {
+        if ((evt.metaKey || evt.ctrlKey) && evt.key === 'a') this.select();
+      });
+    });
+  })
+
+
+  
 document.addEventListener('livewire:navigate', () => {
     Aos.refresh();
     setTimeout(() => {
@@ -34,19 +68,7 @@ document.addEventListener('livewire:navigate', () => {
         /* 
         * Insert the Leaflet map when the page is loaded with Livewire
         */
-        var map = L.map('leaflet-map').setView([19.00016,-98.20364], 17);
-        if(map) {
-            L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-            }).addTo(map);
-        
-            L.marker([19.00016,-98.20364]).addTo(map)
-                .bindPopup('Arena BUAP ')
-                .openPopup();
-        }
-        /* 
-        * End
-        */
+
 
 
     }, 3000);
@@ -69,16 +91,7 @@ document.addEventListener("DOMContentLoaded", function() {
     /* 
     * Insert the Leaflet map
     */
-    let map = L.map('leaflet-map').setView([19.00016,-98.20364], 17);
-    if(map) {
-        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(map);
-    
-        L.marker([19.00016,-98.20364]).addTo(map)
-            .bindPopup('Arena BUAP ')
-            .openPopup();
-    }
+
     /* 
     * End
     */

@@ -1,6 +1,7 @@
 <?php
 
 use App\Livewire\Post;
+use App\Livewire\Web\Global\Games;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -54,6 +55,8 @@ Route::get('/google-auth/callback', function () {
 /* Route::get('/login', function () {
     return view('auth.login');
 })->name('login'); */
+
+Route::get('/test', Games::class)->name('test');
 
 Route::post('/login', function (Request $request) {
 

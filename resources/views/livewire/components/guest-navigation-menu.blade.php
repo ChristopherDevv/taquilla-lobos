@@ -7,8 +7,9 @@
 
                   <a class="flex items-center justify-between gap-2" href="/" wire:navigate>
                     <x-application-logo class="h-auto w-12" />
-                    <h1 class="text-tw-text-primary-600 font-normal text-md uppercase">Lobos<span class="font-bold">Plateados</span></h1>
+                    <h1 class="text-tw-text-primary-600 font-normal text-md uppercase">{{ $message }}</h1>
                   </a>
+                  
       
                   <div class="md:hidden">
                     <button type="button" class="hs-collapse-toggle size-9 flex justify-center items-center text-sm font-semibold rounded-lg border border-gray-200 text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:border-neutral-800 dark:hover:bg-neutral-700" data-hs-collapse="#navbar-collapse-with-animation" aria-controls="navbar-collapse-with-animation" aria-label="Toggle navigation">
