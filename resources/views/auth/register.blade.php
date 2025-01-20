@@ -98,7 +98,7 @@
                                 <button type="button" class="inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-blue-600 hover:text-blue-800 focus:outline-none focus:text-blue-800 disabled:opacity-50 disabled:pointer-events-none">Delete</button>
                               </td>
                             </tr>
-                          
+
                           </tbody>
                         </table>
                       </div>
@@ -119,6 +119,10 @@
                     </div>
                   </div>
                 </div>
+              </div>
+
+              <div>
+                hello
               </div>
 
               <div wire:ignore class="mt-20">
@@ -149,7 +153,7 @@
                           </div>
                         </div>
                       </div>
-                  
+
                       <div class="flex-1 flex items-center justify-end space-x-2">
                         <div wire:ignore id="hs-dropdown-datatable-with-export" class="hs-dropdown [--placement:bottom-right] relative inline-flex">
                           <button id="hs-datatable-export-dropdown" type="button" class="hs-dropdown-toggle py-2 px-3 inline-flex items-center gap-x-2 text-sm rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" aria-haspopup="menu" aria-expanded="false" aria-label="Dropdown">
@@ -163,7 +167,7 @@
                               <path d="m6 9 6 6 6-6"></path>
                             </svg>
                           </button>
-                  
+
                           <div wire:ignore class="hs-dropdown-menu hs-dropdown-open:opacity-100 w-32 transition-[opacity,margin] duration opacity-0 hidden z-20 bg-white rounded-xl shadow-[0_10px_40px_10px_rgba(0,0,0,0.08)]" role="menu" aria-orientation="vertical" aria-labelledby="hs-datatable-export-dropdown">
                             <div class="p-1 space-y-0.5">
                               <button type="button" class="flex w-full items-center gap-x-2 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 focus:outline-none focus:bg-gray-100" data-hs-datatable-action-type="copy">
@@ -239,7 +243,7 @@
                         </div>
                       </div>
                     </div>
-                  
+
                     <div class="overflow-x-auto min-h-[520px] ">
                       <div class="min-w-full inline-block align-middle">
                         <div class="overflow-hidden">
@@ -255,7 +259,7 @@
                                     </svg>
                                   </div>
                                 </th>
-                  
+
                                 <th scope="col" class="py-1 group text-start font-normal focus:outline-none">
                                   <div class="py-1 px-2.5 inline-flex items-center border border-transparent text-sm text-gray-500 rounded-md hover:border-gray-200">
                                     Age
@@ -265,7 +269,7 @@
                                     </svg>
                                   </div>
                                 </th>
-                  
+
                                 <th scope="col" class="py-1 group text-start font-normal focus:outline-none">
                                   <div class="py-1 px-2.5 inline-flex items-center border border-transparent text-sm text-gray-500 rounded-md hover:border-gray-200">
                                     Address
@@ -275,11 +279,11 @@
                                     </svg>
                                   </div>
                                 </th>
-                  
+
                                 <th scope="col" class="py-2 px-3 text-end font-normal text-sm text-gray-500 --exclude-from-ordering">Action</th>
                               </tr>
                             </thead>
-                  
+
                             <tbody class="divide-y divide-gray-200">
                               <tr>
                                 <td class="p-3 whitespace-nowrap text-sm font-medium text-gray-800">Christina Bersh</td>
@@ -289,7 +293,7 @@
                                   <button type="button" class="inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-blue-600 hover:text-blue-800 focus:outline-none focus:text-blue-800 disabled:opacity-50 disabled:pointer-events-none">Delete</button>
                                 </td>
                               </tr>
-                  
+
                               <tr>
                                 <td class="p-3 whitespace-nowrap text-sm font-medium text-gray-800">David Harrison</td>
                                 <td class="p-3 whitespace-nowrap text-sm text-gray-800">27</td>
@@ -298,7 +302,7 @@
                                   <button type="button" class="inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-blue-600 hover:text-blue-800 focus:outline-none focus:text-blue-800 disabled:opacity-50 disabled:pointer-events-none">Delete</button>
                                 </td>
                               </tr>
-                  
+
                               <tr>
                                 <td class="p-3 whitespace-nowrap text-sm font-medium text-gray-800">Anne Richard</td>
                                 <td class="p-3 whitespace-nowrap text-sm text-gray-800">31</td>
@@ -307,7 +311,7 @@
                                   <button type="button" class="inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-blue-600 hover:text-blue-800 focus:outline-none focus:text-blue-800 disabled:opacity-50 disabled:pointer-events-none">Delete</button>
                                 </td>
                               </tr>
-                  
+
                               <tr>
                                 <td class="p-3 whitespace-nowrap text-sm font-medium text-gray-800">Samia Kartoon</td>
                                 <td class="p-3 whitespace-nowrap text-sm text-gray-800">45</td>
@@ -316,7 +320,7 @@
                                   <button type="button" class="inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-blue-600 hover:text-blue-800 focus:outline-none focus:text-blue-800 disabled:opacity-50 disabled:pointer-events-none">Delete</button>
                                 </td>
                               </tr>
-                  
+
                               <tr>
                                 <td class="p-3 whitespace-nowrap text-sm font-medium text-gray-800">David Harrison</td>
                                 <td class="p-3 whitespace-nowrap text-sm text-gray-800">27</td>
@@ -325,7 +329,7 @@
                                   <button type="button" class="inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-blue-600 hover:text-blue-800 focus:outline-none focus:text-blue-800 disabled:opacity-50 disabled:pointer-events-none">Delete</button>
                                 </td>
                               </tr>
-                  
+
                               <tr>
                                 <td class="p-3 whitespace-nowrap text-sm font-medium text-gray-800">Brian Halligan</td>
                                 <td class="p-3 whitespace-nowrap text-sm text-gray-800">31</td>
@@ -334,7 +338,7 @@
                                   <button type="button" class="inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-blue-600 hover:text-blue-800 focus:outline-none focus:text-blue-800 disabled:opacity-50 disabled:pointer-events-none">Delete</button>
                                 </td>
                               </tr>
-                  
+
                               <tr>
                                 <td class="p-3 whitespace-nowrap text-sm font-medium text-gray-800">Andy Clerk</td>
                                 <td class="p-3 whitespace-nowrap text-sm text-gray-800">45</td>
@@ -343,7 +347,7 @@
                                   <button type="button" class="inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-blue-600 hover:text-blue-800 focus:outline-none focus:text-blue-800 disabled:opacity-50 disabled:pointer-events-none">Delete</button>
                                 </td>
                               </tr>
-                  
+
                               <tr>
                                 <td class="p-3 whitespace-nowrap text-sm font-medium text-gray-800">Bart Simpson</td>
                                 <td class="p-3 whitespace-nowrap text-sm text-gray-800">27</td>
@@ -352,7 +356,7 @@
                                   <button type="button" class="inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-blue-600 hover:text-blue-800 focus:outline-none focus:text-blue-800 disabled:opacity-50 disabled:pointer-events-none">Delete</button>
                                 </td>
                               </tr>
-                  
+
                               <tr>
                                 <td class="p-3 whitespace-nowrap text-sm font-medium text-gray-800">Camila Welters</td>
                                 <td class="p-3 whitespace-nowrap text-sm text-gray-800">45</td>
@@ -361,7 +365,7 @@
                                   <button type="button" class="inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-blue-600 hover:text-blue-800 focus:outline-none focus:text-blue-800 disabled:opacity-50 disabled:pointer-events-none">Delete</button>
                                 </td>
                               </tr>
-                  
+
                               <tr>
                                 <td class="p-3 whitespace-nowrap text-sm font-medium text-gray-800">Oliver Schevich</td>
                                 <td class="p-3 whitespace-nowrap text-sm text-gray-800">27</td>
@@ -370,7 +374,7 @@
                                   <button type="button" class="inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-blue-600 hover:text-blue-800 focus:outline-none focus:text-blue-800 disabled:opacity-50 disabled:pointer-events-none">Delete</button>
                                 </td>
                               </tr>
-                  
+
                               <tr>
                                 <td class="p-3 whitespace-nowrap text-sm font-medium text-gray-800">Inna Ivy</td>
                                 <td class="p-3 whitespace-nowrap text-sm text-gray-800">31</td>
@@ -379,7 +383,7 @@
                                   <button type="button" class="inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-blue-600 hover:text-blue-800 focus:outline-none focus:text-blue-800 disabled:opacity-50 disabled:pointer-events-none">Delete</button>
                                 </td>
                               </tr>
-                  
+
                               <tr>
                                 <td class="p-3 whitespace-nowrap text-sm font-medium text-gray-800">Jessica Williams</td>
                                 <td class="p-3 whitespace-nowrap text-sm text-gray-800">27</td>
@@ -388,7 +392,7 @@
                                   <button type="button" class="inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-blue-600 hover:text-blue-800 focus:outline-none focus:text-blue-800 disabled:opacity-50 disabled:pointer-events-none">Delete</button>
                                 </td>
                               </tr>
-                  
+
                               <tr>
                                 <td class="p-3 whitespace-nowrap text-sm font-medium text-gray-800">James Collins</td>
                                 <td class="p-3 whitespace-nowrap text-sm text-gray-800">31</td>
@@ -397,7 +401,7 @@
                                   <button type="button" class="inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-blue-600 hover:text-blue-800 focus:outline-none focus:text-blue-800 disabled:opacity-50 disabled:pointer-events-none">Delete</button>
                                 </td>
                               </tr>
-                  
+
                               <tr>
                                 <td class="p-3 whitespace-nowrap text-sm font-medium text-gray-800">Costa Quinn</td>
                                 <td class="p-3 whitespace-nowrap text-sm text-gray-800">27</td>
@@ -406,7 +410,7 @@
                                   <button type="button" class="inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-blue-600 hover:text-blue-800 focus:outline-none focus:text-blue-800 disabled:opacity-50 disabled:pointer-events-none">Delete</button>
                                 </td>
                               </tr>
-                  
+
                               <tr>
                                 <td class="p-3 whitespace-nowrap text-sm font-medium text-gray-800">Jim Green</td>
                                 <td class="p-3 whitespace-nowrap text-sm text-gray-800">27</td>
@@ -415,7 +419,7 @@
                                   <button type="button" class="inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-blue-600 hover:text-blue-800 focus:outline-none focus:text-blue-800 disabled:opacity-50 disabled:pointer-events-none">Delete</button>
                                 </td>
                               </tr>
-                  
+
                               <tr>
                                 <td class="p-3 whitespace-nowrap text-sm font-medium text-gray-800">Joe Black</td>
                                 <td class="p-3 whitespace-nowrap text-sm text-gray-800">31</td>
@@ -424,7 +428,7 @@
                                   <button type="button" class="inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-blue-600 hover:text-blue-800 focus:outline-none focus:text-blue-800 disabled:opacity-50 disabled:pointer-events-none">Delete</button>
                                 </td>
                               </tr>
-                  
+
                               <tr>
                                 <td class="p-3 whitespace-nowrap text-sm font-medium text-gray-800">Isabella Cherry</td>
                                 <td class="p-3 whitespace-nowrap text-sm text-gray-800">27</td>
@@ -433,7 +437,7 @@
                                   <button type="button" class="inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-blue-600 hover:text-blue-800 focus:outline-none focus:text-blue-800 disabled:opacity-50 disabled:pointer-events-none">Delete</button>
                                 </td>
                               </tr>
-                  
+
                               <tr>
                                 <td class="p-3 whitespace-nowrap text-sm font-medium text-gray-800">Alex Tacker</td>
                                 <td class="p-3 whitespace-nowrap text-sm text-gray-800">31</td>
@@ -442,7 +446,7 @@
                                   <button type="button" class="inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-blue-600 hover:text-blue-800 focus:outline-none focus:text-blue-800 disabled:opacity-50 disabled:pointer-events-none">Delete</button>
                                 </td>
                               </tr>
-                  
+
                               <tr>
                                 <td class="p-3 whitespace-nowrap text-sm font-medium text-gray-800">Endy Ruiz</td>
                                 <td class="p-3 whitespace-nowrap text-sm text-gray-800">45</td>
@@ -451,7 +455,7 @@
                                   <button type="button" class="inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-blue-600 hover:text-blue-800 focus:outline-none focus:text-blue-800 disabled:opacity-50 disabled:pointer-events-none">Delete</button>
                                 </td>
                               </tr>
-                  
+
                               <tr>
                                 <td class="p-3 whitespace-nowrap text-sm font-medium text-gray-800">Jack Li</td>
                                 <td class="p-3 whitespace-nowrap text-sm text-gray-800">27</td>
@@ -465,7 +469,7 @@
                         </div>
                       </div>
                     </div>
-                  
+
                     <div wire:ignore class="flex items-center space-x-1 mt-4" data-hs-datatable-paging="">
                       <button wire:ignore type="button" class="p-2.5 min-w-[40px] inline-flex justify-center items-center gap-x-2 text-sm rounded-full text-gray-800 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none" data-hs-datatable-paging-prev="">
                         <span aria-hidden="true">«</span>
@@ -479,7 +483,7 @@
                     </div>
                   </div>
               </div>
-              
+
 
           {{-- <div class="atropos my-atropos shadow-2xl">
             <div class="atropos-scale scale-100"> <!-- Aumenta o disminuye el valor según prefieras -->
