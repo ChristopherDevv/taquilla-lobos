@@ -124,6 +124,9 @@
               <div>
                 hello
               </div>
+              <div>
+                hello
+              </div>
 
               <div wire:ignore class="mt-20">
                 <div wire:ignore id="hs-datatable-with-export" class="flex flex-col --prevent-on-load-init" data-hs-datatable='{
